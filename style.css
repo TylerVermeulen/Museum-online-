@@ -1,35 +1,40 @@
-li {
+nav li {
   float: left;
 }
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
   overflow: hidden;
   background: #0c060c;
   background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
   position: fixed;
 }
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 0px 16px;
+  transition: 0.6s ease;
   text-decoration: none;
   font-size: 25px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 80px;
 }
 
-li img{
+nav li img{
   width: 80px;
   height: 80px;
 }
-li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 .taakbalk{
-  margin-bottom: 20px;
+  margin-bottom: -10px;
+  z-index: 999;
+  position: relative;
+  justify-content: space-evenly;
 }
 body{
   background-color: black;
@@ -43,9 +48,7 @@ body{
 /* Slideshow container */
 .slideshow-container {
   max-width: 80%;
-  position: relative;
-  margin: auto;
-  z-index: -1;
+  margin-top: 20px;
 
 }
 
@@ -60,10 +63,6 @@ body{
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -71,18 +70,30 @@ body{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  z-index: 3;
 }
+.sliderarrowcol{
+  display: flex;
+  flex-direction: column;
 
+justify-content:center ;
+
+}
+.slidercontrols
+{
+  display: flex;
+  flex-direction: row;
+
+justify-content:center ;
+}
 /* Position the "next button" to the right */
 .next {
-  right: -150px;
+  right: 100px;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #212121;
 }
 /* The dots/bullets/indicators */
 .dot {
