@@ -5,7 +5,7 @@ nav.taakbalk ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+  position: flex;
   overflow: hidden;
   background: #0c060c;
   background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
@@ -22,7 +22,25 @@ nav.taakbalk li a {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 80px;
 }
-
+nav.taakbalk li button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  transition: 0.6s ease;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 80px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 0px;
+  background: #0c060c;
+  background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
+}
+nav.taakbalk li button:hover {
+  background-color: #111;
+}
 nav.taakbalk li img{
   width: 80px;
   height: 80px;
@@ -41,7 +59,10 @@ body{
   color: white;
 }
 
-
+.dark-mode{
+  background-color: white;
+  color: black;
+}
 
 * {box-sizing:border-box}
 
