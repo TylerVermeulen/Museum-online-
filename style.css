@@ -1,5 +1,9 @@
 nav.taakbalk li {
+  /* float: left; */
+}
+.navbar-item{
   float: left;
+ 
 }
 nav.taakbalk ul {
   list-style-type: none;
@@ -10,6 +14,8 @@ nav.taakbalk ul {
   background: #0c060c;
   background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
   position: fixed;
+  width: 100%;
+  
 }
 nav.taakbalk li a {
   display: block;
@@ -23,7 +29,7 @@ nav.taakbalk li a {
   line-height: 80px;
 }
 nav.taakbalk li button {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 0px 16px;
@@ -36,7 +42,13 @@ nav.taakbalk li button {
   align-items: flex-end;
   border: 0px;
   background: #0c060c;
-  background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
+  float: right;
+  /* background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%); */
+  border-radius: 45px;
+}
+.darkmode-button{
+  
+  float: right;
 }
 nav.taakbalk li button:hover {
   background-color: #111;
@@ -53,6 +65,7 @@ nav.taakbalk li a:hover {
   z-index: 999;
   position: relative;
   justify-content: space-evenly;
+  width: 100vw;
 }
 body{
   background-color: black;

@@ -27,7 +27,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function myFunction() {
+function toggleDark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
