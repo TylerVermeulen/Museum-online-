@@ -55,13 +55,13 @@ nav.taakbalk li a:hover {
   justify-content: space-evenly;
 }
 body{
-  background-color: black;
+  background-color: #1a1a1a;
   color: white;
 }
 
 .dark-mode{
   background-color: white;
-  color: black;
+  color: #1a1a1a;
 }
 
 * {box-sizing:border-box}
@@ -154,9 +154,9 @@ nav.footbalk ul {
   padding: 0;
   
   overflow: hidden;
-  background: #0c060c;
+  background: #262626;
   background: linear-gradient(0deg, rgba(12, 6, 12, 0) 0%, rgba(12, 6, 12, 0.7) 100%);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 nav.footbalk li a {
   display: block;
