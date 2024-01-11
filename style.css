@@ -163,11 +163,8 @@ nav.footbalk ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
   overflow: hidden;
   background: #262626;
-  
-  /*border: 1px solid red;*/
 }
 nav.footbalk li a {
   display: block;
