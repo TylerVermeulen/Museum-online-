@@ -73,8 +73,8 @@ body{
 .dark-mode{
   background-color: white;
   color: #1a1a1a;
-}
 
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -176,4 +176,9 @@ nav.footbalk li a {
   font-size: 25px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 80px;
+}
+
+
+nav.footbalk ul.dark-mode{
+  background: #717171;
 }

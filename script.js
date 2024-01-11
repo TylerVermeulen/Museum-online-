@@ -31,3 +31,5 @@ function toggleDark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+const idkfk = document.getElementById("toggleDark")
+ idkfk.addEventListener("click",toggleDark)
