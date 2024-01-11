@@ -73,7 +73,7 @@ body{
 .dark-mode{
   background-color: white;
   color: #1a1a1a;
-
+  border-bottom: #1a1a1a;
 }
 * {box-sizing:border-box}
 
