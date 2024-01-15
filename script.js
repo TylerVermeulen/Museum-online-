@@ -30,6 +30,12 @@ function showSlides(n) {
 function toggleDark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
+
+  let articles = document.getElementsByTagName('article');
+  for(let i = 0; i < articles.length; i++){
+    articles[i].classList.toggle("dark-mode")
+  }
+
 }
 const idkfk = document.getElementById("toggleDark")
- idkfk.addEventListener("click",toggleDark)
+idkfk.addEventListener("click",toggleDark)

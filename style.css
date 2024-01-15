@@ -75,6 +75,10 @@ body{
   color: #1a1a1a;
   border-bottom: #1a1a1a;
 }
+article.dark-mode{
+  border-bottom: #1a1a1a;
+  background: #bbb;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
