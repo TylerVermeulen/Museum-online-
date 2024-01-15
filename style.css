@@ -141,6 +141,7 @@ justify-content:center ;
 
 article{
   margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 20px;
   border-bottom: 1px solid white;
 }
@@ -189,9 +190,21 @@ nav.footbalk ul {
   /*margin-right: 60px; */
 }
 
+.dumb{
+  color: #1a1a1a;
+}
+
 .info{
+  display: flex;
+  justify-content: space-around;
+  /*  margin-right: 300px;  */
+}
+
+.pootje{
   border-bottom: none;
   margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
 }
 footer{
   background: #262626;
