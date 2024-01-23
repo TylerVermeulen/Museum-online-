@@ -77,7 +77,8 @@ body{
 }
 article.dark-mode{
   border-bottom: #1a1a1a;
-  background: #bbb;
+  /*background: #bbb;*/
+
 }
 * {box-sizing:border-box}
 
@@ -195,7 +196,7 @@ nav.footbalk ul {
 }
 
 .dumb{
-  color: #1a1a1a;
+  color: transparent;
 }
 
 .info{
