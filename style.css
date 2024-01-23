@@ -14,6 +14,15 @@ nav.taakbalk ul {
   width: 100%;
   
 }
+
+/*.pipotje{
+  opacity: 0;
+}
+
+.pipotje.dark-mode{
+  opacity: 1;
+}*/
+
 nav.taakbalk li a {
   display: block;
   color: white;
@@ -75,12 +84,19 @@ body{
   color: #1a1a1a;
   border-bottom: #1a1a1a;
 }
+
 article.dark-mode{
   border-bottom: #1a1a1a;
   /*background: #bbb;*/
 
 }
 * {box-sizing:border-box}
+
+article.pootje.dark-mode{
+  background: #262626;
+  color: white;
+  border-bottom: white;
+}
 
 /* Slideshow container */
 .slideshow-container {
