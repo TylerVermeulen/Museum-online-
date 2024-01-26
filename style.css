@@ -209,6 +209,12 @@ nav.footbalk ul {
   display: flex;
   justify-content: space-around;
   /*margin-right: 60px; */
+  padding-left: 40px;
+  font-size: large;
+}
+
+.historyp{
+  font-size: large;
 }
 
 .dumb{
@@ -240,9 +246,14 @@ nav.footbalk li a {
   font-size: 25px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 80px;
+  padding-left: 40px;
 }
 
 
 nav.footbalk ul.dark-mode{
   background: #717171;
+}
+
+.invis{
+  color: transparent;
 }
